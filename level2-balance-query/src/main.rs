@@ -8,7 +8,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let provider = ProviderBuilder::new().connect("https://arbitrum-sepolia-rpc.publicnode.com").await?;
 
  
-    // Fetch the balance of WETH for a given address.
+    // Query native ETH balance (wei).
     let owner = address!("0xe3a6E3935E65613C7DE0DB4586dcc91a32A03c41"); 
     let balance = provider.get_balance(owner).await?; 
 
