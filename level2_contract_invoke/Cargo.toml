@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+alloy = "1.4.3"
+alloy-sol-types = "1.5.2"
+anyhow = "1.0.100"
+alloy-primitives = "1.5.2"
+alloy-contract = "1.4.3"
+tokio = { version = "1.49.0", features = ["full"] }
