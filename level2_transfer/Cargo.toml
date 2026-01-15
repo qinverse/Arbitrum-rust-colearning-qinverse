@@ -1,0 +1,12 @@
+[package]
+name = "level2_transfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = { version = "0.4", features =  ["full"]  }
+tokio = { version = "1.49.0", features = ["full"] }
+dotenvy = "0.15.7"
+eyre = "0.6.12"
+anyhow = "1.0.100"
+env = "1.0.1"
